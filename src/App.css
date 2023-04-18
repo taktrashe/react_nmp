@@ -1,7 +1,114 @@
 .App {
   text-align: center;
 }
+.Header{
+  width:800px;
+  height:200px;
+  position:relative ;
+  margin-top: 25px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 14px #888;
+  background-image: url(./image/header.jpg);
+  background-size: 100% 100%;
+}
 
+.title{
+  position:absolute ;
+  color: red;
+  margin-top:50px;
+  margin-left:100px;
+}
+.Nav{
+  width:800px;
+  height:60px;
+  background-color: #53cfda;
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  margin-top: 20px;
+  box-shadow: 0px 4px 14px #888;
+
+}
+.Nav2:hover{
+  cursor: pointer;
+
+}
+
+.Pic{
+  width: 60px;
+  height:40px;
+}
+
+.Pic2{
+  width: 120px;
+  height:70px;
+}
+
+.container{
+width:700px;
+/* height:350px; */
+border: 1px solid red;
+}
+/*-------------------------*/
+
+.column {
+  overflow:auto;
+  /* float: left; */
+  width: 800px;
+  /* height:600px; */
+  padding: 5px 5px;
+  /* margin-left: 50px; */
+  margin: 30px auto 10px auto;
+  border:1px solid blueviolet;
+}
+
+/* Style the counter cards */
+.card {
+  /* display: flex; */
+  float: left;
+  position:relative;
+  border:1px solid red;
+  width:210px;
+  /* height: 250px; */
+box-shadow: 6px 6px 6px  gray;
+padding: 10px;
+margin: 10px 10px;
+text-align: left;
+background-color: #f1f1f1;
+}
+
+.card p,h3{
+  margin :5px;
+}
+
+.card a:hover{
+  background-color: yellow;
+
+}
+.card a{
+  display:inline-block;
+  background-color: yellowgreen;
+  text-align: center;
+  margin: 5px;
+  width:55px;
+border:1px dashed blue ;
+
+}
+
+.test1{
+  position:absolute;
+  top:15px;
+  right:5px;
+  color:white;
+  background-color:red;
+  padding:2px 8px 4px;
+  border-radius:5px;
+  rotate:45deg;
+  text-align: center;
+  }
+/*-------------------------------*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
